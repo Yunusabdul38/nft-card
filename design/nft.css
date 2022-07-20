@@ -81,7 +81,7 @@ body{
 }
 .img2{
    width: 260px;
-   background: url(../images/image-equilibrium.jpg) no-repeat;
+   background: url(./design/image-equilibrium.jpg) no-repeat;
    height: 260px;
    position: relative;
    border-radius: 10px;
@@ -89,7 +89,7 @@ body{
    transition: 1s ease-out;
 }
 .img2:hover{
-   background:linear-gradient(45deg, hsla(178, 100%, 50%, 0.596) 100%,transparent 100%), url(../images/image-equilibrium.jpg);
+   background:linear-gradient(45deg, hsla(178, 100%, 50%, 0.596) 100%,transparent 100%), url(./design/image-equilibrium.jpg);
    transition: 1s ease-in;
    background-size: 200%;
    background-position:center center;
