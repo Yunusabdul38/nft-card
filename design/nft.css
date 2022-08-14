@@ -19,6 +19,7 @@ body{
    line-height: 25px;
    border-radius: 10px;
    color:  hsl(215, 51%, 70%);
+    font-family:outfit;
    text-align: start;
 }
 .container .img1{
@@ -26,10 +27,13 @@ body{
    border-radius: 10px;
 }
 .container h2{
+     font-weigth:700;
    margin-block: 10px;
+     font-weigth:400;
    color: hsl(0, 0%, 100%);
 }
 .container p{
+     font-weigth:300;
    margin-block: 10px;
    font-size: 16px;
 }
@@ -77,11 +81,13 @@ body{
    bottom: 0;
 }
 .attribution a {
+    font-family:outfit;
+    font-weigth:300;
    color: hsl(228, 45%, 44%); 
 }
 .img2{
    width: 260px;
-   background: url(./design/image-equilibrium.jpg) no-repeat;
+   background: url(design/image-equilibrium.jpg) no-repeat;
    height: 260px;
    position: relative;
    border-radius: 10px;
@@ -89,7 +95,7 @@ body{
    transition: 1s ease-out;
 }
 .img2:hover{
-   background:linear-gradient(45deg, hsla(178, 100%, 50%, 0.596) 100%,transparent 100%), url(./design/image-equilibrium.jpg);
+   background:linear-gradient(45deg, hsla(178, 100%, 50%, 0.596) 100%,transparent 100%), url(design/image-equilibrium.jpg);
    transition: 1s ease-in;
    background-size: 200%;
    background-position:center center;
